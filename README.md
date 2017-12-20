@@ -61,7 +61,7 @@ For any store created using redux-injector, simply use ```injectReducer``` to ad
 ```javascript
 import { injectReducer } from 'redux-injector';
 
-injectReducer('date.form', formReducerFunction);
+injectReducer('data.form', formReducerFunction);
 ```
 
 The injector uses lodash.set so any paths that are supported by it can be used and any missing objects will be created.
